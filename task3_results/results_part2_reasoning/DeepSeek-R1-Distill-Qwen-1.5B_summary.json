@@ -1,0 +1,384 @@
+{
+  "n_tasks": 20,
+  "original": {
+    "answer_accuracy": [
+      20.0,
+      4,
+      20
+    ],
+    "trace_accuracy": [
+      5.0,
+      1,
+      20
+    ],
+    "right_answer_wrong_reasoning": [
+      25.0,
+      1,
+      4
+    ]
+  },
+  "parsing": {
+    "invalid_output_rate": [
+      49.193548387096776,
+      61,
+      124
+    ],
+    "trace_parsed_rate": [
+      41.935483870967744,
+      52,
+      124
+    ]
+  },
+  "all_mutants": {
+    "n_pairs": 104,
+    "answer_inconsistency": [
+      49.03846153846154,
+      51,
+      104
+    ],
+    "reasoning_inconsistency": [
+      20.0,
+      2,
+      10
+    ],
+    "any_inconsistency": [
+      50.96153846153846,
+      53,
+      104
+    ],
+    "mutant_trace_accuracy": [
+      4.8076923076923075,
+      5,
+      104
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      52.94117647058823,
+      9,
+      17
+    ]
+  },
+  "single_mutations": {
+    "n_pairs": 60,
+    "answer_inconsistency": [
+      51.666666666666664,
+      31,
+      60
+    ],
+    "reasoning_inconsistency": [
+      14.285714285714286,
+      1,
+      7
+    ],
+    "any_inconsistency": [
+      53.333333333333336,
+      32,
+      60
+    ],
+    "mutant_trace_accuracy": [
+      5.0,
+      3,
+      60
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      60.0,
+      6,
+      10
+    ]
+  },
+  "pairs_of_mutations": {
+    "n_pairs": 44,
+    "answer_inconsistency": [
+      45.45454545454545,
+      20,
+      44
+    ],
+    "reasoning_inconsistency": [
+      33.333333333333336,
+      1,
+      3
+    ],
+    "any_inconsistency": [
+      47.72727272727273,
+      21,
+      44
+    ],
+    "mutant_trace_accuracy": [
+      4.545454545454546,
+      2,
+      44
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      42.857142857142854,
+      3,
+      7
+    ]
+  },
+  "hidden_pair_failures": [
+    19.047619047619047,
+    4,
+    21
+  ],
+  "per_operator": {
+    "constant_unfold": {
+      "n_pairs": 7,
+      "answer_inconsistency": [
+        57.142857142857146,
+        4,
+        7
+      ],
+      "reasoning_inconsistency": [
+        100.0,
+        1,
+        1
+      ],
+      "any_inconsistency": [
+        71.42857142857143,
+        5,
+        7
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        7
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        100.0,
+        1,
+        1
+      ]
+    },
+    "for2while": {
+      "n_pairs": 13,
+      "answer_inconsistency": [
+        53.84615384615385,
+        7,
+        13
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        2
+      ],
+      "any_inconsistency": [
+        53.84615384615385,
+        7,
+        13
+      ],
+      "mutant_trace_accuracy": [
+        15.384615384615385,
+        2,
+        13
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        50.0,
+        2,
+        4
+      ]
+    },
+    "random": {
+      "n_pairs": 20,
+      "answer_inconsistency": [
+        50.0,
+        10,
+        20
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        1
+      ],
+      "any_inconsistency": [
+        50.0,
+        10,
+        20
+      ],
+      "mutant_trace_accuracy": [
+        5.0,
+        1,
+        20
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        100.0,
+        2,
+        2
+      ]
+    },
+    "sequential": {
+      "n_pairs": 20,
+      "answer_inconsistency": [
+        50.0,
+        10,
+        20
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        3
+      ],
+      "any_inconsistency": [
+        50.0,
+        10,
+        20
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        20
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        33.333333333333336,
+        1,
+        3
+      ]
+    },
+    "for2while+constant_unfold": {
+      "n_pairs": 4,
+      "answer_inconsistency": [
+        0.0,
+        0,
+        4
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        0.0,
+        0,
+        4
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        4
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        0.0,
+        0,
+        1
+      ]
+    },
+    "random+constant_unfold": {
+      "n_pairs": 7,
+      "answer_inconsistency": [
+        57.142857142857146,
+        4,
+        7
+      ],
+      "reasoning_inconsistency": [
+        100.0,
+        1,
+        1
+      ],
+      "any_inconsistency": [
+        71.42857142857143,
+        5,
+        7
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        7
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "random+for2while": {
+      "n_pairs": 13,
+      "answer_inconsistency": [
+        46.15384615384615,
+        6,
+        13
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        2
+      ],
+      "any_inconsistency": [
+        46.15384615384615,
+        6,
+        13
+      ],
+      "mutant_trace_accuracy": [
+        7.6923076923076925,
+        1,
+        13
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        50.0,
+        1,
+        2
+      ]
+    },
+    "sequential+constant_unfold": {
+      "n_pairs": 7,
+      "answer_inconsistency": [
+        42.857142857142854,
+        3,
+        7
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        42.857142857142854,
+        3,
+        7
+      ],
+      "mutant_trace_accuracy": [
+        14.285714285714286,
+        1,
+        7
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        0.0,
+        0,
+        1
+      ]
+    },
+    "sequential+for2while": {
+      "n_pairs": 13,
+      "answer_inconsistency": [
+        53.84615384615385,
+        7,
+        13
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        53.84615384615385,
+        7,
+        13
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        13
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        66.66666666666667,
+        2,
+        3
+      ]
+    }
+  },
+  "noise": {
+    "rerun_flip_rate": [
+      30.0,
+      6,
+      20
+    ]
+  },
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "seconds": 1214
+}
