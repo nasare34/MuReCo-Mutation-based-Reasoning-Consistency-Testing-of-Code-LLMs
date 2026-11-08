@@ -1,8 +1,5 @@
 # MuReCo: Mutation-based Reasoning Consistency Testing of Code LLMs
 
-Prototype for Task 3 (PhD assessment, Prof. Ezekiel Soremekun). It extends
-**MuCoCo** (Chua, Lwin & Soremekun, EMNLP 2026) by reusing its released code.
-
 | | MuCoCo (Part 1) | MuReCo (Part 2, this prototype) |
 |---|---|---|
 | Mutations | MuCoCo's 11 operators | MuCoCo's operators, **imported unchanged** (random, sequential, for2while, demorgan, constant_unfold) |
