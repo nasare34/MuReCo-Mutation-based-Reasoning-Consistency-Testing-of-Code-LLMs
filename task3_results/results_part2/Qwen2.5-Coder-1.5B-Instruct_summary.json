@@ -1,0 +1,496 @@
+{
+  "n_tasks": 60,
+  "original": {
+    "answer_accuracy": [
+      18.333333333333332,
+      11,
+      60
+    ],
+    "trace_accuracy": [
+      3.3333333333333335,
+      2,
+      60
+    ],
+    "right_answer_wrong_reasoning": [
+      81.81818181818181,
+      9,
+      11
+    ]
+  },
+  "parsing": {
+    "invalid_output_rate": [
+      62.71186440677966,
+      222,
+      354
+    ],
+    "trace_parsed_rate": [
+      40.3954802259887,
+      143,
+      354
+    ]
+  },
+  "all_mutants": {
+    "n_pairs": 294,
+    "answer_inconsistency": [
+      51.70068027210884,
+      152,
+      294
+    ],
+    "reasoning_inconsistency": [
+      28.125,
+      9,
+      32
+    ],
+    "any_inconsistency": [
+      54.76190476190476,
+      161,
+      294
+    ],
+    "mutant_trace_accuracy": [
+      5.782312925170068,
+      17,
+      294
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      68.88888888888889,
+      31,
+      45
+    ]
+  },
+  "single_mutations": {
+    "n_pairs": 175,
+    "answer_inconsistency": [
+      50.285714285714285,
+      88,
+      175
+    ],
+    "reasoning_inconsistency": [
+      34.78260869565217,
+      8,
+      23
+    ],
+    "any_inconsistency": [
+      54.857142857142854,
+      96,
+      175
+    ],
+    "mutant_trace_accuracy": [
+      5.142857142857143,
+      9,
+      175
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      71.42857142857143,
+      20,
+      28
+    ]
+  },
+  "pairs_of_mutations": {
+    "n_pairs": 119,
+    "answer_inconsistency": [
+      53.78151260504202,
+      64,
+      119
+    ],
+    "reasoning_inconsistency": [
+      11.11111111111111,
+      1,
+      9
+    ],
+    "any_inconsistency": [
+      54.621848739495796,
+      65,
+      119
+    ],
+    "mutant_trace_accuracy": [
+      6.722689075630252,
+      8,
+      119
+    ],
+    "mutant_right_answer_wrong_reasoning": [
+      64.70588235294117,
+      11,
+      17
+    ]
+  },
+  "hidden_pair_failures": [
+    7.6923076923076925,
+    5,
+    65
+  ],
+  "per_operator": {
+    "constant_unfold": {
+      "n_pairs": 14,
+      "answer_inconsistency": [
+        50.0,
+        7,
+        14
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        1
+      ],
+      "any_inconsistency": [
+        50.0,
+        7,
+        14
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        14
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        100.0,
+        2,
+        2
+      ]
+    },
+    "demorgan": {
+      "n_pairs": 2,
+      "answer_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        2
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "for2while": {
+      "n_pairs": 39,
+      "answer_inconsistency": [
+        46.15384615384615,
+        18,
+        39
+      ],
+      "reasoning_inconsistency": [
+        66.66666666666667,
+        2,
+        3
+      ],
+      "any_inconsistency": [
+        51.282051282051285,
+        20,
+        39
+      ],
+      "mutant_trace_accuracy": [
+        2.5641025641025643,
+        1,
+        39
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        75.0,
+        3,
+        4
+      ]
+    },
+    "random": {
+      "n_pairs": 60,
+      "answer_inconsistency": [
+        48.333333333333336,
+        29,
+        60
+      ],
+      "reasoning_inconsistency": [
+        40.0,
+        4,
+        10
+      ],
+      "any_inconsistency": [
+        55.0,
+        33,
+        60
+      ],
+      "mutant_trace_accuracy": [
+        8.333333333333334,
+        5,
+        60
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        70.0,
+        7,
+        10
+      ]
+    },
+    "sequential": {
+      "n_pairs": 60,
+      "answer_inconsistency": [
+        53.333333333333336,
+        32,
+        60
+      ],
+      "reasoning_inconsistency": [
+        22.22222222222222,
+        2,
+        9
+      ],
+      "any_inconsistency": [
+        56.666666666666664,
+        34,
+        60
+      ],
+      "mutant_trace_accuracy": [
+        5.0,
+        3,
+        60
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        66.66666666666667,
+        8,
+        12
+      ]
+    },
+    "for2while+constant_unfold": {
+      "n_pairs": 7,
+      "answer_inconsistency": [
+        28.571428571428573,
+        2,
+        7
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        28.571428571428573,
+        2,
+        7
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        7
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "for2while+demorgan": {
+      "n_pairs": 2,
+      "answer_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        2
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "random+constant_unfold": {
+      "n_pairs": 14,
+      "answer_inconsistency": [
+        78.57142857142857,
+        11,
+        14
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        78.57142857142857,
+        11,
+        14
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        14
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "random+demorgan": {
+      "n_pairs": 2,
+      "answer_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        100.0,
+        2,
+        2
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        2
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        null,
+        0,
+        0
+      ]
+    },
+    "random+for2while": {
+      "n_pairs": 39,
+      "answer_inconsistency": [
+        46.15384615384615,
+        18,
+        39
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        3
+      ],
+      "any_inconsistency": [
+        46.15384615384615,
+        18,
+        39
+      ],
+      "mutant_trace_accuracy": [
+        7.6923076923076925,
+        3,
+        39
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        25.0,
+        1,
+        4
+      ]
+    },
+    "sequential+constant_unfold": {
+      "n_pairs": 14,
+      "answer_inconsistency": [
+        78.57142857142857,
+        11,
+        14
+      ],
+      "reasoning_inconsistency": [
+        null,
+        0,
+        0
+      ],
+      "any_inconsistency": [
+        78.57142857142857,
+        11,
+        14
+      ],
+      "mutant_trace_accuracy": [
+        7.142857142857143,
+        1,
+        14
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        100.0,
+        4,
+        4
+      ]
+    },
+    "sequential+demorgan": {
+      "n_pairs": 2,
+      "answer_inconsistency": [
+        0.0,
+        0,
+        2
+      ],
+      "reasoning_inconsistency": [
+        50.0,
+        1,
+        2
+      ],
+      "any_inconsistency": [
+        50.0,
+        1,
+        2
+      ],
+      "mutant_trace_accuracy": [
+        0.0,
+        0,
+        2
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        100.0,
+        2,
+        2
+      ]
+    },
+    "sequential+for2while": {
+      "n_pairs": 39,
+      "answer_inconsistency": [
+        46.15384615384615,
+        18,
+        39
+      ],
+      "reasoning_inconsistency": [
+        0.0,
+        0,
+        4
+      ],
+      "any_inconsistency": [
+        46.15384615384615,
+        18,
+        39
+      ],
+      "mutant_trace_accuracy": [
+        10.256410256410257,
+        4,
+        39
+      ],
+      "mutant_right_answer_wrong_reasoning": [
+        57.142857142857146,
+        4,
+        7
+      ]
+    }
+  },
+  "noise": {
+    "rerun_flip_rate": [
+      7.5,
+      9,
+      120
+    ]
+  },
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "seconds": 487
+}
